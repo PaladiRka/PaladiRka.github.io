@@ -12,7 +12,14 @@
 
         <input type="text" onchange="alert(this.value)">
         <input type="button" value="Кнопка">
+<input type="text"> oninput: <span id="result"></span>
+<script>
+  var input = document.body.children[0];
 
+  input.oninput = function() {
+    document.getElementById('result').innerHTML = input.value;
+  };
+</script>
       <p>End of scrict</p>
     </main>
   </body>
