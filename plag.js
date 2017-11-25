@@ -3,3 +3,4 @@ function count_rabbits(){
                    alert("Из шляпы достали "+i+" кролика!")
             }
             }
+count_rabbits();
